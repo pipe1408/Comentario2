@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>LFBG - Comentario de Ingeniería</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Resumen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Comentario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Referencias</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+            Programación de Nuevas Tecnologías
+          </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="resumen">
+        <h2><b>RESUMEN</b></h2>
+        <hr>
+        <div class = carrusel>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/arnold.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Dreyfus.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <h3>Discurso de Arnold Schwarzenegger en la Universidad de Houston</h3>
+        <hr>
+        <p>
+            El famoso actor austríaco Arnold Schwarzenegger, dirigiéndose en la ceremonia de grado de la promoción 2017
+            de la Universidad de Houston, dio un discurso hablando de su experiencia y de cómo creció como persona,
+            para servir como ejemplo a los nuevos profesionales que saldrían finalmente a ejercer sus carreras.
+            <br><br>
+            El mensaje de Schwarzenegger se centró en cómo la persona que él llegó a ser, con todo el éxito que lleva detrás
+            de su nombre y rostro, se debe gracias a todas las personas que lo rodearon y cómo sin ellos no habría llegado a ser nada.
+            Según él, ninguna persona es construida únicamente por sí misma sino por todo lo que la rodea, pues los humanos viven
+            en sociedad, por lo que hay que estar dispuestos a "romper el espejo" con el que las personas se fijan solo en
+            su propio ser, para empezar a ayudar a los demás, tal como los alrededores de cada uno de los estudiantes de la
+            Universidad de Houston, los ayudaron a llegar al punto de convertirse en profesionales.
+        </p>
+        <h3>TedTalk de Diego Dreyfus</h3>
+        <hr>
+        <p>
+            El influencer y coach motivacional mexicano Diego Dreyfus, dictó una charla Ted en la que se refiere a cómo el
+            universo está formado por el caos y cómo ese caos es el que a su vez permite que todo lo que existe sea funcional y pueda crecer.
+            <br><br>
+            La charla inicia con la explicación del concepto de la entropía, que es según Dreyfus, la magnitud física que permite medir
+            la cantidad de caos en el universo. El universo siempre está creciendo, por lo que el caos qe hay en él también es mayor. A su vez,
+            los sistemas que existen en el universo funcionan para mantener el orden, por lo que se enfrentan directamente con el caos del universo.
+            Esta idea es aplicable a absolutamente todo lo que existe en el universo, incluyendo al ser humano.
+            <br><br>
+            El ser humano recibe entropía y él mantiene un orden, haciendo lo que Dreyfus define como la "discipación de la entropía",
+            como si se barriera un apartamento que está lleno de polvo, para que se pueda mantener limpio y en este caso, libre de caos. Sin embargo, los
+            sistemas solo pueden mantener un cierto nivel de entropía a la vez, y una vez superan ese límite llegan a un "punto de bifurcación", punto
+            en el cual sucede una de dos cosas: el sistema crece, o el sistema se destruye.
+
+        </p>
+    </div>
+
+    <div class="comentario" style="text-align: center">
+        <h2><b>OPINIÓN PERSONAL</b></h2>
+        <hr>
+        <p>
+            Tanto el discurso de Arnold Schwarzenegger, como la charla de Diego Dreyfus, coinciden en el tema del que tratan:
+            el proceso de crecimiento del ser humano. Por un lado, la visión de Schwarzenegger es mucho más humana, en el sentido de que
+            los humanos crecen gracias a otros humanos y a las sociedades en que viven, y esto conlleva a que el ser humano deba cumplir
+            también con la responsabilidad de ayudar a los demás. Por otra parte, Dreyfus ve este proceso de manera mucho más científica,
+            pues según él, el crecimiento de las personas, como sistemas pertenecientes al universo, crecen a partir de la
+            entropía que reciben.
+            <br><br>
+            Aunque sean puntos de vista totalmente distintos sobre el mismo tema, no necesariamente se contradicen, por el contrario, es
+            posible encontrar una relación de complementación entre ellas. Si cada ser humano tiene una forma de ser distinta y con esa
+            forma de ser permite a otras personas crecer, ya es posible encontrar cierta relación y decir que las personas se aportan caos
+            entre ellas. Aunque es posible predecir a veces el comportamiento de las demás personas, simplemente no es posible leer sus
+            mentes o controlar sus comportamientos, pues el hecho de que todos sean diferentes permite evidenciar la existencia de la entropía
+            entre las personas. Si todas las personas fueran iguales, todo sería perfectamente ordenado, y no habría lugar para el caos,
+            cada persona sería un sistema cerrado y no sería necesario ni siquiera que existiera una sociedad, por esta razón no habría tampoco lugar
+            para el crecimiento de las personas.
+            <br><br>
+            La entropía que permite a una persona crecer se traduce entonces en las personas que la rodean y las sociedades en las que viven,
+            de no ser por esto, sería simplemente imposible crecer, sin el caos que nos aportan los demás.
+        </p>
+    </div>
+
+
+    <div class="referencias" style="text-align: center">
+        <hr>
+        <h2><b>REFERENCIAS</b></h2>
+        <div class="list-group">
+            <a href="https://www.youtube.com/watch?v=RJsvR_gSEjg" target="_blank" class="list-group-item list-group-item-action">"Arnold Schwarzenegger's 2017 University of Houston Commencement Address"</a>
+            <a href="https://www.youtube.com/watch?v=vIgtl27hQmk"  target="_blank" class="list-group-item list-group-item-action">"TE DESEO MÁS CAOS DEL QUE PUEDAS AGUANTAR | DIEGO DREYFUS"</a>
+        </div>
+    </div>
+
+<style>
+    body {
+        background-color: #2b2b2b;
+        color: white;
+    }
+
+    .navbar-brand {
+        color: white;
+    }
+    .navbar-text {
+        color: white;
+    }
+    .nav-item {
+        background-color: #00568b;
+        color: white;
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 4px;
+    }
+
+    .resumen {
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    .carrusel {
+        display: flex;
+        margin: 20px auto 20px auto;
+        background-color: white;
+        height: 500px;
+        width: 500px;
+        border-radius: 5%;
+    }
+    .slide {
+        border-radius: 5%;
+        background-color: darkgray;
+        margin: 10%;
+    }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
